@@ -1,0 +1,72 @@
+.TimeSelect {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-color: rgb(86, 93, 207);
+}
+
+.TimeSelect .a{
+  display: content;
+}
+
+.sign_up{
+  text-decoration: none;
+}
+
+.title {
+  color: white;
+}
+
+.reserve_box {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 70vw;
+  height: 60vh;
+  border-radius: 15px;
+  background-color: #f8f8f8;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.Time,
+.input_box,
+.sign_in,
+.sign_up {
+  border-radius: 15px;
+  border-color: none;
+  border-style: none;
+  width: 50vw;
+}
+
+hr {
+  width: 60vw;
+  border-top: 1px solid #bbb;
+}
+
+.input_box {
+  text-align: center;
+  height: 5vh;
+  margin: 0.5vh;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.sign_in,
+.sign_up {
+  font-weight: 700;
+  height: 5vh;
+  margin: 1vh;
+  color: white;
+  box-shadow: none;
+  background-color: rgb(86, 93, 207);
+}
+
+.sign_in {
+  background-color: rgb(132, 155, 239);
+}
